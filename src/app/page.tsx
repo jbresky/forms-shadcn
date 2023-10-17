@@ -14,7 +14,7 @@ export default function Home() {
           Forms
         </h1>
         <Button onClick={() => router.push('/forms/basic')}>Basic form</Button>
-        <Button>Intermediate form</Button>
+        <Button onClick={() => router.push('/forms/intermediate')}>Intermediate form</Button>
         <Button onClick={() => router.push('/forms/advanced')}>Advanced form</Button>
       </div>
     </main>
