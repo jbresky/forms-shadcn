@@ -2,7 +2,7 @@
 
 import React, { FormEventHandler, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { validateEmail } from "@/app/utils/validate";
+import { validateEmail } from "@/utils/validate";
 
 interface FormProps {
     firstName: string,

@@ -1,7 +1,7 @@
-import { BasicUserSchema } from '@/models/Users';
+import { UserSchemaWithAddress } from '@/models/Users';
 import { z } from 'zod';
 
-const UserResults = z.array(BasicUserSchema)
+const UserResults = z.array(UserSchemaWithAddress)
 
 type UserArray = z.infer<typeof UserResults>
 
